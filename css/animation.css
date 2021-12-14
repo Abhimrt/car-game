@@ -1,0 +1,50 @@
+.path .path1{
+    animation: path 1.5s  infinite;
+}
+.path .path2{
+    animation: path 1.5s  infinite;
+    animation-delay: .5s;
+}
+.path .path3{
+    animation: path 1.5s  infinite;
+    animation-delay: 1s;
+}
+.path .path4{
+    animation: path 1.5s  infinite;
+    animation-delay: 1.5s;
+    
+}
+@keyframes path {
+    0%{
+        bottom: 0px;
+    }
+    100%{
+        bottom: 120vh;
+    }
+}
+
+
+.Car1{
+    animation: car1 6s infinite;
+}
+.Car2{
+    animation: car2 6s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes car1 {
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom: 0%;
+    }
+}
+@keyframes car2 {
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom: 0%;
+    }
+}
