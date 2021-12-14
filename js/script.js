@@ -44,7 +44,7 @@ window.addEventListener('keypress',(e)=>{
  setInterval(animation,8000)
 
 function animation(){
-    if(pcarpos<15)
+    if(pcarpos<10)
     pcarpos+=3;
     policecar.style.bottom=pcarpos+"%";
 }
