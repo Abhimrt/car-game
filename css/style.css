@@ -101,7 +101,7 @@ button:hover{
     position: absolute;
     width: 60px;
     right: 29%;
-    bottom: 28%; 
+    bottom: 40%; 
     transition: .3s all;
     border: rgba(0, 0, 0, 0.2) .2px solid;
 }

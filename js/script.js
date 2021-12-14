@@ -14,7 +14,7 @@ let game = document.getElementById("gameover");
 let pcarpos = 0;
 let Car1=27;
 let Car2=38;
-let calUpMcar = 28;
+let calUpMcar = 40;
 let calDownMcar = 28;
 let score = 0;
     car1.classList.add("Car1");
@@ -31,7 +31,7 @@ window.addEventListener('keypress',(e)=>{
         calUpMcar-=4;
         maincar.style.bottom =calUpMcar+"%";
     }
-    if((e.key=="a"||e.key=="A")&&calDownMcar<40){
+    if((e.key=="a"||e.key=="A")&&calDownMcar<42){
         calDownMcar+=4;
         maincar.style.right =calDownMcar+"%";
     }
