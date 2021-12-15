@@ -22,7 +22,7 @@ let score = 0;
     cloud.classList.add("cloud");
     path.style.display="block";
 
-window.addEventListener('keypress',(e)=>{
+document.addEventListener('keypress',(e)=>{
     if((e.key=="w"||e.key=="W")&&calUpMcar<76){
         calUpMcar+=4;
         maincar.style.bottom =calUpMcar+"%";
@@ -52,7 +52,7 @@ function animation(){
 setInterval(position,3000);
 
 function position(){
-    let pos=Math.floor(Math.random()*7);
+    let pos=Math.floor(Math.random()*14);
     Car1<33?Car1+=pos:Car1-=pos;
     Car2<33?Car2+=pos:Car2-=pos;
         car2.style.right=Car1+"%";
