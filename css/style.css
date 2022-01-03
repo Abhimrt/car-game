@@ -33,7 +33,7 @@ button:hover{
 .btn{
     position: absolute;
     bottom: 50%;
-    left: 10%;
+    left: 5%;
 }
 .cloud{
     background: url("../images/cloud.gif") no-repeat fixed center;
@@ -83,11 +83,13 @@ button:hover{
     bottom: 100%;
     border: rgba(0, 0, 0, 0.2) .2px solid;
 }
-.car2 img::after{
-    content: "2";
+.car3 img{
     position: absolute;
-    top: 0;
-    color: #fff;
+    width: 60px;
+    right: 33%;
+    transition: 2s all;
+    bottom: 100%;
+    border: rgba(0, 0, 0, 0.2) .2px solid;
 }
 .pcar img{ 
     position: absolute;
@@ -95,7 +97,7 @@ button:hover{
     right: 29%;
     bottom: 0%;  
     transition: 1s all;
-    border: rgba(0, 0, 0, 0.2) .2px solid;
+    /* border: rgba(0, 0, 0, 0.2) .2px solid; */
 }
 .mcar img{
     position: absolute;
